@@ -1,0 +1,42 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+}
+.loader{
+    background-color: #F3C3CB;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.loader h1{
+    font-size: 5vw;
+    text-align: center;
+    color: #c5102e;
+    transition:  all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}   
+.loader p{
+    position: absolute;
+    font-size: 18px;
+    text-align: center;
+    color: #c5102e;
+    bottom: 5%;
+    width: 25%;
+    transition:  all cubic-bezier(0.19, 1, 0.22, 1)1s;
+
+}
+#ball{
+    position: absolute;
+    top: 0;
+    left: 0;
+    scale: 2;
+    transition:  all cubic-bezier(0.19, 1, 0.22, 1)1s;
+}
